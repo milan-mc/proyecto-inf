@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registro de Usuario</title>
+  <link rel="stylesheet" href="css/stayles._us.css">
+</head>
+<body>
+
+<div class="registro-container">
+  <h1>Registro de Actas </h1>
+  <form id="registroForm" class="registro-form">
+    <input type="text" id="nombreAdmin" placeholder="Nombre de Admin" required>
+    <input type="text" id=" equipo" placeholder="equipo" required>
+    <input type="text" id="Marca" placeholder="Marca" required>
+    <input type="text" id="N/S" placeholder="N/S" required>
+    <input type="text" id="Estado" placeholder="Estado" required>
+    <input type="text" id="NombredeUsuario" placeholder="Usuario" required>
+    <input type="text" id="rut" placeholder="rut" required>
+    <input type="date" id="fecha" placeholder="Fecha" required>
+    <select id="rol" required>
+      <option value="admin">Area Informatica</option>
+      <option value="admin">Area de Transito</option>
+      <option value="admin">Area Dideco</option>
+      <option value="admin">Area Finanzas</option>
+      <option value="admin">Area Cotabilidad</option>
+      <option value="admin">Area Adquisiciones</option>
+      <option value="admin">Area OMIL</option>
+      <option value="admin">Area Prodesal</option>
+      <option value="admin">Area Secretaria</option>
+      <option value="admin">Area Juridico</option>
+      <option value="admin">Area Secplac</option>
+      <option value="admin">Area Administracion</option>
+      <option value="admin">Area Control</option>
+      <option value="cliente">Area Patentes comerciales</option>
+      <option value="cliente">Area Adquisiciones</option>
+
+    </select>
+    <button type="submit">Registrar</button>
+  </form>
+</div>
+
+<div class="usuarios-container">
+  <h2>Listado de Usuarios</h2>
+  <ul id="listaUsuarios"></ul>
+
+  <table class="usuarios-table">
+    <caption>Usuarios</caption>
+    <thead>
+      <tr>
+        <th>Nombre de adm</th>
+        <th>equipo</th>
+        <th>marca</th>
+        <th>N/S</th> 
+        <th>Estado</th> 
+        <th>Usuario</th>
+        <th>rut</th>
+        <th>Fecha</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>milan</td>
+        <td>Notebook</td>
+        <td>lenovo</td>
+        <td>n/s</td>
+        <td>Estado</td>
+        <td>nick</td>
+        <td>21.455.864-3</td>
+        <td>date</td>
+        
+      </tr>
+      <tr>
+        <td>milan</td>
+        <td>Notebook</td>
+        <td>lenovo</td>
+        <td>n/s</td>
+        <td>Estado</td>
+        <td>nick</td>
+        <td>21.455.864-3</td>
+        <td>date</td>
+        
+      </tr>
+      <tr>
+        <td>milan</td>
+        <td>Notebook</td>
+        <td>lenovo</td>
+        <td>n/s</td>
+        <td>Estado</td>
+        <td>nick</td>
+        <td>21.455.864-3</td>
+        <td>date</td>
+        
+      <tr>
+        <td>milan</td>
+        <td>Notebook</td>
+        <td>lenovo</td>
+        <td>n/s</td>
+        <td>nick</td>
+        <td>21.455.864-3</td>
+        <td>date</td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<script src="js/script_us.js"></script>
+</body>
+</html>

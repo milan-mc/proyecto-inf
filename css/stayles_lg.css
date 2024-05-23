@@ -1,0 +1,63 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f4ee; /* Tono de fondo suave */
+    color: #463f3a; /* Color de texto oscuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Contenedor del formulario de inicio de sesión */
+  .login-container {
+    text-align: center;
+    max-width: 400px; /* Máximo ancho para una mejor visualización en dispositivos grandes */
+    width: 90%; /* Para dispositivos más pequeños */
+  }
+  
+  /* Formulario de inicio de sesión */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  button {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%; /* Ocupar el ancho disponible */
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box; /* Evitar que el padding afecte el ancho */
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    background-color: #e4dfd9; /* Tono de café más claro para los campos */
+    color: #463f3a; /* Color de texto oscuro */
+  }
+  
+  button {
+    background-color: #9b8e87; /* Tono café más oscuro para el botón */
+    color: #fff; /* Texto en blanco */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #725f58; /* Tono café más oscuro en el hover */
+  }
+  
+  .login-message {
+    margin-top: 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #725f58; /* Tono café para el título */
+  }

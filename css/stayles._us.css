@@ -1,0 +1,84 @@
+/* Estilos para el formulario de registro */
+.registro-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .registro-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  select {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    max-width: 250px;
+    border: 1px solid #b1a59e; /* Café suave para los campos */
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #725f58; /* Café oscuro para el botón */
+    color: white;
+  }
+  
+  button:hover {
+    background-color: #463f3a; /* Café más oscuro en hover */
+  }
+  
+  /* Estilos para el listado de usuarios */
+  .usuarios-container {
+    text-align: center;
+  }
+  
+  #listaUsuarios {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #listaUsuarios li {
+    margin-bottom: 5px;
+  }
+  
+  /* Estilos para la tabla de usuarios */
+  .usuarios-table {
+    border-collapse: collapse;
+    width: 90%; /* Ajuste para mayor responsividad */
+    max-width: 800px; /* Máximo ancho */
+    margin: 20px auto;
+  }
+  
+  .usuarios-table caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .usuarios-table th,
+  .usuarios-table td {
+    border: 1px solid #d8d0c9; /* Café claro para las celdas */
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .usuarios-table th {
+    background-color: #725f58; /* Café oscuro para encabezados */
+    color: white;
+  }
+  
+  .usuarios-table tbody tr:nth-child(even) {
+    background-color: #f5f1eb; /* Café claro para filas pares */
+  }
+  
+  .usuarios-table tbody tr:hover {
+    background-color: #e3d9cc; /* Café más claro al pasar el mouse */
+  }
